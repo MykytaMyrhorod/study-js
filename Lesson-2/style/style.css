@@ -1,0 +1,46 @@
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(202, 197, 197);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-back-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-back {
+  background-color: rgb(255, 38, 0);
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: black;
+}
+.task {
+  color: black;
+  background-color: rgb(69, 215, 49);
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.task-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.text {
+  max-width: 400px;
+  text-align: center;
+}

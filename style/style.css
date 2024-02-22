@@ -1,0 +1,30 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(202, 197, 197);
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.task-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.task-link {
+  display: block;
+  padding: 30px 100px;
+  border-radius: 20px;
+  white-space: nowrap;
+  background-color: rgb(69, 215, 49);
+  color: black;
+}
