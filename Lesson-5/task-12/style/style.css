@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  max-width: 300px;
+  margin: 0 auto;
+  border: 3px solid #000;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
